@@ -1,0 +1,63 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 28px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input,select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select > option {
+    font-size: medium;
+}
+
+.login-btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-btn:hover {
+    opacity: 0.8;
+}
+
+.error {
+    color: rgb(214, 3, 3);
+    margin: 0px;
+    padding-bottom: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(20, 29, 38);
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    

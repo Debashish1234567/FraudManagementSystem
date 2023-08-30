@@ -1,0 +1,91 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+nav li {
+    padding: 16px;
+    font-size: 25px;
+}
+
+#logout-btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 24px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 33px;
+}
+
+#logout-btn:hover {
+    opacity: 0.8;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px;
+    justify-content: space-evenly;
+}
+
+.card-wrapper {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 16px;
+    margin: 16px;
+    transition: transform .2s;
+    font-size: x-large;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: black;
+    text-align: center;
+}
+
+.card-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    background-size: cover;
+}
+
+#card {
+    background-image: url("../assets/card.png");
+}
+
+#transaction {
+    background-image: url("../assets/transaction.png");
+}
+
+#claim {
+    background-image: url("../assets/claim.png");
+}
+
+#user {
+    background-image: url("../assets/users.png");
+}
+
+.card-wrapper > a {
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+}
